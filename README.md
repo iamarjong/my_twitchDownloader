@@ -1,1 +1,1 @@
-從 twitchLive1.py 開始。 並且將它打包(例如用 pyinstaller)，就能直接在 cmd 打指令攔截。 其中的策略以 [這張架構圖](https://www.facebook.com/fpn12099/posts/pfbid0zBEAXGsBJBpCBnGMfemLr2YHsv17mwSJAWm7NwNrGkbqCmGsdYmZZUGhDFHyFvP7l) 為主。 
+從 twitchLive1.py 開始。 近期我將它打包(用 pyinstaller)，因此就能直接在 cmd 打指令，這時套件裡import的東西要小心使用，例如用 from ... import ... 的時候，那些東西是不能用的所以才會有一些調整。 這個 py 檔運用的策略以 [這張架構圖](https://www.facebook.com/fpn12099/posts/pfbid0zBEAXGsBJBpCBnGMfemLr2YHsv17mwSJAWm7NwNrGkbqCmGsdYmZZUGhDFHyFvP7l) 為主。 
